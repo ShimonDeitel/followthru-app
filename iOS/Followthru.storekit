@@ -1,0 +1,40 @@
+{
+  "identifier" : "FollowthruProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "followthru_pro_group",
+      "localizations" : [],
+      "name" : "Followthru Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.followthru.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Followthru Pro - Auto-escalating reminder cadence and win/loss stats",
+              "displayName" : "Followthru Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.followthru.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Followthru Pro Monthly",
+          "subscriptionGroupID" : "followthru_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
